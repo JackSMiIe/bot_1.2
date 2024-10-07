@@ -1,0 +1,52 @@
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Конфигурационные файлы PyCharm
+.idea/
+
+# Виртуальные окружения
+venv/
+.env/
+.venv/
+
+# Файлы сборки
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Файлы окружения и зависимостей
+*.env
+.envrc
+
+# Установленные библиотеки и зависимости
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Сборка дистрибутива Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Кэш и служебные файлы от разных инструментов
+*.coverage
+.cache/
+.tox/
+.mypy_cache/
+.pytest_cache/
+.coverage.*
+
+# IDE и редакторы
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Docker, если используется
+docker-compose.override.yml
